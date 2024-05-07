@@ -135,11 +135,10 @@ function WorkWithUs({ contactData }: any) {
       <div className="rounded-both-zoom-responsive -ml-[246px] mb-[300px] flex h-[1331px] w-[1331px] items-center">
         <div className={circleBackgroundClasses}></div>
         <div className="absolute ml-[382px]">
-          <div className={joinWithUsTxtClasses}>Đồng hành cùng <div className="inline text-orange-1">VNV</div></div>
-          <img
-            className={circleBgClasses}
-            src="/anhnen2.png"
-          />
+          <div className={joinWithUsTxtClasses}>
+            Đồng hành cùng <div className="inline text-orange-1">VNV</div>
+          </div>
+          <img className={circleBgClasses} src="/anhnen2.png" />
         </div>
         {/* <WorkWithUsIcon
           iconUrl="/Group 2017.png"

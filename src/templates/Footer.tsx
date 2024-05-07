@@ -21,7 +21,10 @@ const Footer: React.FC = () => {
         </div>
         <div className="my-2 flex items-center text-base">
           <img className="pr-3" src="icon-footer-1.svg" />
-          <div>Số 24-H2 Khu đô thị Yên Hòa, Ngõ 6, <br></br>Phố Trần Kim Xuyến, Phường Yên Hòa,<br></br> Quận Cầu Giấy, thành phố Hà Nội, Việt Nam</div>
+          <div>
+            Số 24-H2 Khu đô thị Yên Hòa, Ngõ 6, <br></br>Phố Trần Kim Xuyến,
+            Phường Yên Hòa,<br></br> Quận Cầu Giấy, thành phố Hà Nội, Việt Nam
+          </div>
         </div>
       </div>
     </div>

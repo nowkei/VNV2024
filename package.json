@@ -7,7 +7,6 @@
     "start": "next start",
     "start-full-step": "next build && npm run stat",
     "build-stats": "cross-env ANALYZE=true npm run build",
-    "export": "next export",
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next .swc out",
     "lint": "next lint",
